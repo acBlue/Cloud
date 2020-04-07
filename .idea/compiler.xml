@@ -6,18 +6,34 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="config-server" />
+        <module name="openfeign-provider" />
         <module name="eureka-server" />
+        <module name="config-server" />
+        <module name="rabbitmq-provider" />
+        <module name="openfegin-consumer" />
         <module name="config-client" />
-        <module name="Cloud" />
+        <module name="gateway-server" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="feign-client" target="1.8" />
+      <module name="kafkastream" target="1.8" />
+      <module name="openfeigin" target="1.5" />
+      <module name="openfeign" target="1.5" />
+      <module name="provider-payment8001" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="config-client" options="-parameters" />
       <module name="config-server" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
+      <module name="feign-client" options="-parameters" />
+      <module name="gateway-server" options="-parameters" />
+      <module name="kafkastream" options="-parameters" />
+      <module name="openfegin-consumer" options="-parameters" />
+      <module name="openfeign-provider" options="-parameters" />
+      <module name="rabbitmq-provider" options="-parameters" />
     </option>
   </component>
 </project>

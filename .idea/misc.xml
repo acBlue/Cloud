@@ -8,7 +8,20 @@
         <option value="$PROJECT_DIR$/eureka-server/pom.xml" />
         <option value="$PROJECT_DIR$/config-server/pom.xml" />
         <option value="$PROJECT_DIR$/config-client/pom.xml" />
+        <option value="$PROJECT_DIR$/feign-client/pom.xml" />
+        <option value="$PROJECT_DIR$/gateway-server/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbitmq-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/openfeign-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/openfegin-consumer/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/feign-client-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/openfeigin/pom.xml" />
+        <option value="$PROJECT_DIR$/openfeign/pom.xml" />
+        <option value="$PROJECT_DIR$/provider-payment8001/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">

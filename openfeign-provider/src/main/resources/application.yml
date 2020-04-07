@@ -1,0 +1,13 @@
+server:
+  port: 9001
+
+
+spring:
+  application:
+    name: openfeign-provider
+
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://192.168.31.85:8761/eureka

@@ -11,6 +11,8 @@
 
     <modules>
         <module>provider-payment8001</module>
+        <module>openfeign</module>
+        <module>openfeigin</module>
     </modules>
 
 
