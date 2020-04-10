@@ -1,10 +1,10 @@
 server:
-  port: 8778
+  port: 8779
 
 
 spring:
   application:
-    name: rabbitmq-provider
+    name: rabbitmq-consumer
   cloud:
     stream:
       default-binder: rabbit

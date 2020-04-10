@@ -13,6 +13,9 @@
         <option value="$PROJECT_DIR$/rabbitmq-provider/pom.xml" />
         <option value="$PROJECT_DIR$/openfeign-provider/pom.xml" />
         <option value="$PROJECT_DIR$/openfegin-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/kafka-stream-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/kafka-steam-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbitmq-consumer/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

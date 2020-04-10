@@ -1,0 +1,39 @@
+server:
+  port: 9004
+
+
+spring:
+  application:
+    name: kafka-stream-provider
+
+  cloud:
+    stream:
+      kafka:
+        binder:
+          brokers: localhost:9092
+        bindings:
+          provider_output:
+            destination: test
+          provider_input:
+            destination: test
+      default-binder: kafka
+
+
+
+  kafka:
+    bootstrap-servers: localhost:9092
+    producer:
+      key-serializer: org.apache.kafka.common.serialization.ByteArraySerializer
+      value-serializer: org.apache.kafka.common.serialization.ByteArraySerializer
+      client-id: provider1
+    consumer:
+      group-id: consumer1
+
+
+
+
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
